@@ -1,0 +1,51 @@
+.odd{
+    background-color:lightpink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.oddly-cool{
+    font-size: 24px;
+}
+
+#two{
+    color: blue;
+    font-size: 24px;
+}
+
+#four{
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* 兩個class 中間加上 "," 表示兩個class的人 皆選取！ */
+.inverted, .fancy{
+    font-size: 28px;
+    font-family: Helvetica, Time New Roman, sans-serif;
+}
+.inverted{
+    background-color: black;
+    color: white;
+}
+.fancy{
+    background-color: yellow;
+}
+
+/* .class1.class2 表示只選取同時具有class1和class2的人！ */
+.avatar.proportioned{
+    width: 300px;
+    height: auto;
+}
+.avatar.distorted{
+    width: 200px;
+    height: 400px;
+}
+
+/* .class1 .class2(中間有一個空白鍵！) 表示選取具有父class1且子class2的人 */
+.container .text{
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+
+}
